@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: #212121;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 2rem;
+    color: #212121;
+}
+
+input[type=radio]{
+    border: 0px;
+    height: 2em;
+    width: 20px;
+}
+
+.container{
+    background-color: #ffd400;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 190px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.next{
+    border-radius: 6px;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 12px;
+    background-color: #cc0000;
+    color: #212121;
+    font-size: 16px;
+}
+
+.question{
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #f2f205;
+    color: #27a635;
+}
+
+.message{
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    color: red;
+}
+
+.list{
+    font-family: serif;
+    color: blueviolet;
+}
+
+.result{
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
